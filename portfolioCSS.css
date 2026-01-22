@@ -1,0 +1,466 @@
+/* RESET BASICO */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(22, 16, 34, 0.95); 
+    color: #ffffff;
+}
+
+.cabecera {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    background-color: rgba(22, 16, 34, 0.95);
+}
+
+.nombre {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.lista-navegacion {
+    display: flex;
+    gap: 40px;
+}
+
+.elemento-navegacion {
+    list-style-type: none;
+}
+
+.enlace-navegacion {
+    text-decoration: none;
+    color: #888888;
+}
+
+.enlace-navegacion:hover {
+    color: #ffffff;
+}
+
+.enlace-activo {
+    color: #ffffff;
+    border-bottom: 2px solid #ff6b4a;
+    padding-bottom: 5px;
+}
+
+.contenido-principal {
+    padding: 10px 60px 40px 60px;
+}
+
+.principal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+.miNombre {
+    font-size: 2.8rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.linea-introduccion {
+    font-size: 1.3rem;
+    color: #888888;
+    margin-bottom: 80px;
+    padding-left: 60px;
+    border-left: 3px solid #ff6b4a;
+    margin-left: 0;
+}
+
+.titulo-principal {
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.1;
+    margin-bottom: 35px;
+    color: #ffffff;
+}
+
+.botones {
+    display: flex;
+    gap: 20px;
+    
+}
+
+.boton-primario {
+    font-weight: bold;
+    padding: 14px 28px;
+    text-decoration: none;
+    border-radius: 6px;
+    background-color: #ff6b4a;
+    color: #ffffff;
+    border: 2px solid #ff6b4a;
+}
+
+.boton-primario:hover {
+    background-color: #ff8266;
+}
+
+.boton-secundario {
+    font-weight: bold;
+    padding: 14px 28px;
+    text-decoration: none;
+    border-radius: 6px;
+    background-color: transparent;
+    color: #ffffff;
+    border: 2px solid #ff6b4a;
+}
+
+.boton-secundario:hover {
+    border-color: #ffb5a4;
+    color: #ffffff;
+}
+
+.boton-tercero {
+    font-weight: bold;
+    padding: 14px 28px;
+    text-decoration: none;
+    border-radius: 6px;
+    background-color: transparent;
+    color: #ffffff;
+    border: 2px solid #ff6b4a;
+}
+
+.boton-tercero:hover {
+    border-color: #ffb5a4;
+    color: #ffffff;
+}
+
+.contenedor-foto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 530px;
+    height: 605px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foto-perfil {
+    margin-left: 0px;
+    margin-top: -90px;
+}
+
+.linea-division {
+    margin-left: 0;
+    padding-left: 0;
+    width: 100%;          
+    height: 3px;
+    background-color: #ff6b4a; 
+}
+
+.fotosobremi {
+    margin-left: -62px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+}
+
+#sobremi {
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    gap: 20px;
+}
+
+.contenido-sobremi {
+    margin-top: 150px;
+    flex: 1;
+}
+
+.titulo-presentacion {
+    font-size: 2rem;
+    color: #ffbe82;
+    margin-bottom: 40px;
+}
+
+.texto-presentacion {
+    font-size: 1.3rem;
+    color: #ccc;
+    font-weight: 400;
+    margin-right: 90px;
+}
+
+.proyectosdestacables {
+    font-size: 2rem;
+    color: #ffbe82;
+    margin-top: 70px;
+}
+
+.fotoProyectos {
+    margin-top: 0px;
+    margin-left: -260px;
+    margin-bottom: 0px;
+}
+
+.puntosderecha {
+    margin-top: -345px;
+    margin-left: 1100px;
+    margin-bottom: 0px;
+}
+
+.puntosderecha2 {
+    margin-top: -345px;
+    margin-left: 1100px;
+    margin-bottom: 0px;
+}
+
+.contenido-proyecto {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;  
+    text-align: center;
+}
+
+.boton-proyecto {
+    font-weight: bold;
+    
+    padding: 14px 28px;
+    text-decoration: none;
+    border-radius: 6px;
+    background-color: #ff6b4a;
+    color: #ffffff;
+    border: 2px solid #ff6b4a;
+}
+
+.boton-proyecto:hover {
+    background-color: #ff8266;
+}
+
+.linea-division2{
+    margin-top: 70px;
+    margin-left: 0;
+    padding-left: 0;
+    width: 100%;          
+    height: 3px;
+    background-color: #ff6b4a; 
+}
+
+.contacto {
+    padding: 40px 20px;
+    align-items: center;
+}
+
+.caja {
+    background-color: #ffe0c3;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    padding: 50px;
+    color: #ff6b4a;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.titulo {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+.texto-naranja {
+    color: #ffa375;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; 
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.entrada-caja {
+    border: 1px solid #777;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.entrada-caja input, .entrada-caja textarea {
+    background: none;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding-left: 10px;
+    width: 100%;
+    font-family: inherit;
+
+}
+
+.entrada-caja textarea {
+    height: 50px;
+    padding-top: 5px;
+}
+
+.boton-enviar {
+    background-color: #eb773d;
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 50px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.boton-enviar:hover {
+    background-color: #d96a2e;
+}
+
+.enlaces-redes {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.enlace {
+    color: #000000;
+    text-decoration: none;
+    font-size: 14px;
+    display: flex;
+    align-items: center;  
+    gap: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 60px;
+    background-color: rgba(22, 16, 34, 0.95);
+}
+
+@media screen and (max-width: 768px) {
+    .cabecera {
+        flex-direction: column;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .lista-navegacion {
+        gap: 15px;
+        margin-top: 15px;
+        justify-content: center;
+        padding: 0;
+    }
+
+    .principal {
+        display: flex;
+        flex-direction: column; 
+        align-items: center;
+        text-align: center;
+        gap: 30px;
+    }
+
+    .introduccion {
+        width: 100%;
+    }
+
+    .contenedor-foto {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    .foto-perfil {
+        margin: 0; 
+        width: 90%; 
+        height: auto;
+        max-width: 400px;
+    }
+
+    .miNombre {
+        font-size: 2.2rem;
+    }
+
+    .linea-introduccion {
+        padding-left: 0;
+        padding-top: 10px;
+        border-left: none;
+        border-top: 3px solid #ff6b4a;
+        margin-bottom: 30px;
+        font-size: 1.1rem;
+    }
+
+    .botones {
+        flex-direction: column; 
+        width: 100%;
+        gap: 10px;
+    }
+
+    .boton-primario, .boton-secundario, .boton-tercero {
+        width: 100%;
+        display: block;
+        box-sizing: border-box;
+    }
+
+    #sobremi {
+        display: block; 
+        padding: 0;
+        margin-top: 20px;
+    }
+
+    .fotosobremi {    
+        float: left; /* Hace que el texto rodee la fotto*/
+        margin-left: -60px;
+        margin-top: -20px; 
+        width: 50%;
+        height: auto ;
+        padding: 0;
+    }
+
+    .contenido-sobremi {
+        display: block ;
+        margin-top: 0 ;
+        padding: 0 ;
+    }
+
+    .titulo-presentacion {
+        font-size: 1.3rem ;
+        margin-bottom: 5px ;
+        margin-top: 0 ;
+    }
+
+    .texto-presentacion {
+        display: inline ; 
+        font-size: 0.9rem ;
+        line-height: 1.3 ; 
+        margin: 0 ;
+    }
+
+    .fotoProyectos {
+        margin-left: -120px;
+        width: 100%;
+        height: auto;
+    }
+
+    .puntosderecha, .puntosderecha2 {
+        position: absolute; 
+        right: 10px; 
+        margin-right: -10px;     
+        margin-left: 0;     
+        margin-top: 160px;    
+        width: 100px;       
+        height: 150px;
+    }
+    
+    .caja {
+        padding: 30px 20px;
+    }
+
+    .titulo {
+        font-size: 1.6rem;
+    }¨
+}
